@@ -1,0 +1,508 @@
+{
+    "elements":[
+        {
+            "comments": "技能相关的【性相】",
+			"id": "zb_ability",
+			"label": "能力",
+			"description": "使用头脑与心灵、双手与双眼的才能。对大部分人来说是与生俱来之物。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_ability",
+            "noartneeded": false
+        },
+        {
+            "comments": "属性：力量",
+            "id": "zb_power",
+            "label": "力量",
+            "description": "一切生存都是从力量开始，站稳脚跟后便是战火与征服。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_power",
+            "noartneeded": false
+        },
+        {
+            "comments": "属性：耐力",
+            "id": "zb_stamina",
+            "label": "耐力",
+            "description": "强大的武器需要意志与体魄来驱使。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_stamina",
+            "noartneeded": false
+        },
+        {
+            "comments": "属性：机械",
+            "id": "zb_mechanics",
+            "label": "机械",
+            "description": "“对于不理解机械学的人来说，世界是一块巨大、复杂的谜题。”",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_mechanics",
+            "noartneeded": false
+        },
+        {
+            "comments": "属性：智识",
+            "id": "zb_intelligence",
+            "label": "智识",
+            "description": "曼妙想法与学识的有机结合。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_intelligence",
+            "noartneeded": false
+        },
+        {
+            "comments": "属性：医疗",
+            "id": "zb_medicine",
+            "label": "医疗",
+            "description": "“治愈乃时间之事，然时有赖于良机。”————希波克拉底",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_medicine",
+            "noartneeded": false
+        },
+        {
+            "comments": "属性：感知",
+            "id": "zb_perception",
+            "label": "感知",
+            "description": "耳听六路，眼观八方。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_perception",
+            "noartneeded": false
+        },
+
+
+        {
+			"comments": "【卡牌】技能：1级力量",
+			"id": "zb_skillpower1",
+			"label": "技能：1级力量",
+			"description": "进行日常活动程度的能力。",
+			"icon": "zb_skillpower1",
+			"slots": [],
+			"aspects": {
+				"zb_power": 1,
+				"zb_ability": 1
+			}
+		},
+        {
+			"comments": "【卡牌】技能：2级力量",
+			"id": "zb_skillpower2",
+			"label": "技能：2级力量",
+			"description": "略微超出日常活动程度的能力。",
+			"icon": "zb_skillpower2",
+			"slots": [],
+			"aspects": {
+				"zb_power": 2,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：3级力量",
+			"id": "zb_skillpower3",
+			"label": "技能：3级力量",
+			"description": "健身房常客程度的能力。",
+			"icon": "zb_skillpower3",
+			"slots": [],
+			"aspects": {
+				"zb_power": 3,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：4级力量",
+			"id": "zb_skillpower4",
+			"label": "技能：4级力量",
+			"description": "健身房铁杆粉丝程度的能力。",
+			"icon": "zb_skillpower4",
+			"slots": [],
+			"aspects": {
+				"zb_power": 4,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：5级力量",
+			"id": "zb_skillpower5",
+			"label": "技能：5级力量",
+			"description": "举重替补选手程度的能力。",
+			"icon": "zb_skillpower5",
+			"slots": [],
+			"aspects": {
+				"zb_power": 5,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：6级力量",
+			"id": "zb_skillpower6",
+			"label": "技能：6级力量",
+			"description": "退伍士兵程度的能力。",
+			"icon": "zb_skillpower6",
+			"slots": [],
+			"aspects": {
+				"zb_power": 6,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：1级耐力",
+			"id": "zb_skillstamina1",
+			"label": "技能：1级耐力",
+			"description": "穿拖鞋持续行走程度的能力。",
+			"icon": "zb_skillstamina1",
+			"slots": [],
+			"aspects": {
+				"zb_stamina": 1,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：2级耐力",
+			"id": "zb_skillstamina2",
+			"label": "技能：2级耐力",
+			"description": "穿跑鞋持续行走程度的能力。",
+			"icon": "zb_skillstamina2",
+			"slots": [],
+			"aspects": {
+				"zb_stamina": 2,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：3级耐力",
+			"id": "zb_skillstamina3",
+			"label": "技能：3级耐力",
+			"description": "穿跑鞋持续慢跑程度的能力。",
+			"icon": "zb_skillstamina3",
+			"slots": [],
+			"aspects": {
+				"zb_stamina": 3,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：4级耐力",
+			"id": "zb_skillstamina4",
+			"label": "技能：4级耐力",
+			"description": "穿跑鞋持续跑动程度的能力。",
+			"icon": "zb_skillstamina4",
+			"slots": [],
+			"aspects": {
+				"zb_stamina": 4,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：5级耐力",
+			"id": "zb_skillstamina5",
+			"label": "技能：5级耐力",
+			"description": "马拉松运动员程度的能力。",
+			"icon": "zb_skillstamina5",
+			"slots": [],
+			"aspects": {
+				"zb_stamina": 5,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：6级耐力",
+			"id": "zb_skillstamina6",
+			"label": "技能：6级耐力",
+			"description": "退伍士兵程度的能力。",
+			"icon": "zb_skillstamina6",
+			"slots": [],
+			"aspects": {
+				"zb_stamina": 6,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：1级机械",
+			"id": "zb_skillmechanics1",
+			"label": "技能：1级机械",
+			"description": "轮子的发明是人类文明机械学的开端，当然你对其的认知止步于此。",
+			"icon": "zb_skillmechanics1",
+			"slots": [],
+			"aspects": {
+				"zb_mechanics": 1,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：2级机械",
+			"id": "zb_skillmechanics2",
+			"label": "技能：2级机械",
+			"description": "通晓基本知识程度的能力。",
+			"icon": "zb_skillmechanics2",
+			"slots": [],
+			"aspects": {
+				"zb_mechanics": 2,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：3级机械",
+			"id": "zb_skillmechanics3",
+			"label": "技能：3级机械",
+			"description": "通晓进阶知识程度的能力。",
+			"icon": "zb_skillmechanics3",
+			"slots": [],
+			"aspects": {
+				"zb_mechanics": 3,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：4级机械",
+			"id": "zb_skillmechanics4",
+			"label": "技能：4级机械",
+			"description": "熟练运用知识程度的能力。",
+			"icon": "zb_skillmechanics4",
+			"slots": [],
+			"aspects": {
+				"zb_mechanics": 4,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：5级机械",
+			"id": "zb_skillmechanics5",
+			"label": "技能：5级机械",
+			"description": "手搓精妙零件程度的能力。",
+			"icon": "zb_skillmechanics5",
+			"slots": [],
+			"aspects": {
+				"zb_mechanics": 5,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：6级机械",
+			"id": "zb_skillmechanics6",
+			"label": "技能：6级机械",
+			"description": "手搓机甲程度的能力。",
+			"icon": "zb_skillmechanics6",
+			"slots": [],
+			"aspects": {
+				"zb_mechanics": 6,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：1级智识",
+			"id": "zb_skillintelligence1",
+			"label": "技能：1级智识",
+			"description": "知道基本的科学知识，但受传统观念桎梏。",
+			"icon": "zb_skillintelligence1",
+			"slots": [],
+			"aspects": {
+				"zb_intelligence": 1,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：2级智识",
+			"id": "zb_skillintelligence2",
+			"label": "技能：2级智识",
+			"description": "本科毕业程度的能力。",
+			"icon": "zb_skillintelligence2",
+			"slots": [],
+			"aspects": {
+				"zb_intelligence": 2,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：3级智识",
+			"id": "zb_skillintelligence3",
+			"label": "技能：3级智识",
+			"description": "研究生毕业程度的能力。",
+			"icon": "zb_skillintelligence3",
+			"slots": [],
+			"aspects": {
+				"zb_intelligence": 3,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：4级智识",
+			"id": "zb_skillintelligence4",
+			"label": "技能：4级智识",
+			"description": "博士毕业程度的能力。",
+			"icon": "zb_skillintelligence4",
+			"slots": [],
+			"aspects": {
+				"zb_intelligence": 4,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：5级智识",
+			"id": "zb_skillintelligence5",
+			"label": "技能：5级智识",
+			"description": "辨识是非程度的能力。",
+			"icon": "zb_skillintelligence5",
+			"slots": [],
+			"aspects": {
+				"zb_intelligence": 5,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：6级智识",
+			"id": "zb_skillintelligence6",
+			"label": "技能：6级智识",
+			"description": "吞噬历史程度的能力。",
+			"icon": "zb_skillintelligence6",
+			"slots": [],
+			"aspects": {
+				"zb_intelligence": 6,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：1级医疗",
+			"id": "zb_skillmedicine1",
+			"label": "技能：1级医疗",
+			"description": "会最基本的伤口处理，医疗水平与中世纪的瘟疫医生相当。",
+			"icon": "zb_skillmedicine1",
+			"slots": [],
+			"aspects": {
+				"zb_medicine": 1,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：2级医疗",
+			"id": "zb_skillmedicine2",
+			"label": "技能：2级医疗",
+			"description": "勉强拿到行医资格证程度的能力。",
+			"icon": "zb_skillmedicine2",
+			"slots": [],
+			"aspects": {
+				"zb_medicine": 2,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：3级医疗",
+			"id": "zb_skillmedicine3",
+			"label": "技能：3级医疗",
+			"description": "从业5年程度的能力。",
+			"icon": "zb_skillmedicine3",
+			"slots": [],
+			"aspects": {
+				"zb_medicine": 3,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：4级医疗",
+			"id": "zb_skillmedicine4",
+			"label": "技能：4级医疗",
+			"description": "从业10年程度的能力。",
+			"icon": "zb_skillmedicine4",
+			"slots": [],
+			"aspects": {
+				"zb_medicine": 4,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：5级医疗",
+			"id": "zb_skillmedicine5",
+			"label": "技能：5级医疗",
+			"description": "从业20年程度的能力。",
+			"icon": "zb_skillmedicine5",
+			"slots": [],
+			"aspects": {
+				"zb_medicine": 5,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：6级医疗",
+			"id": "zb_skillmedicine6",
+			"label": "技能：6级医疗",
+			"description": "制作任何药物程度的能力。",
+			"icon": "zb_skillmedicine6",
+			"slots": [],
+			"aspects": {
+				"zb_medicine": 6,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：1级感知",
+			"id": "zb_skillperception1",
+			"label": "技能：1级感知",
+			"description": "看见丧尸程度的能力。",
+			"icon": "zb_skillperception1",
+			"slots": [],
+			"aspects": {
+				"zb_perception": 1,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：2级感知",
+			"id": "zb_skillperception2",
+			"label": "技能：2级感知",
+			"description": "闻到丧尸程度的能力。",
+			"icon": "zb_skillperception2",
+			"slots": [],
+			"aspects": {
+				"zb_perception": 2,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：3级感知",
+			"id": "zb_skillperception3",
+			"label": "技能：3级感知",
+			"description": "听到丧尸程度的能力。",
+			"icon": "zb_skillperception3",
+			"slots": [],
+			"aspects": {
+				"zb_perception": 3,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：4级感知",
+			"id": "zb_skillperception4",
+			"label": "技能：4级感知",
+			"description": "10m内感知丧尸程度的能力。",
+			"icon": "zb_skillperception4",
+			"slots": [],
+			"aspects": {
+				"zb_perception": 4,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：5级感知",
+			"id": "zb_skillperception5",
+			"label": "技能：5级感知",
+			"description": "闭眼能躲避丧尸程度的能力。",
+			"icon": "zb_skillperception5",
+			"slots": [],
+			"aspects": {
+				"zb_perception": 5,
+				"zb_ability": 1
+			}
+		},
+		{
+			"comments": "【卡牌】技能：6级感知",
+			"id": "zb_skillperception6",
+			"label": "技能：6级感知",
+			"description": "精准预测丧尸数量程度的能力。",
+			"icon": "zb_skillperception6",
+			"slots": [],
+			"aspects": {
+				"zb_perception": 6,
+				"zb_ability": 1
+			}
+		}
+    ]
+}

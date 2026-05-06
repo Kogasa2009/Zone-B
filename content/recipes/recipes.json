@@ -1,0 +1,195 @@
+{
+  "recipes": [
+    {
+      "comments": "【往日不再】模糊的记忆→研究",
+      "id": "sort_blur_memory",
+      "actionId": "zb_research",
+      "label": "梳理混乱的记忆",
+      "startdescription": "我的记忆相当混乱，我需要一点时间来整理思绪……",
+      "warmup": 10,
+      "craftable": true,
+      "description": "在我前方不远处，一个胸口被利器贯穿的人以一个极其诡异的姿势站起来，跌跌撞撞地向我跑来，嘴里发出可怖的嘶嚎。我的本能告诉我，没有时间回忆了。",
+      "requirements": {
+        "zb_blurmemory": 1
+      },
+      "effects": {
+        "zb_blurmemory": -1
+      },
+      "alt": [
+        {
+          "id": "spawn_zbnobody_use",
+          "chance": 100,
+          "additional": true
+        }
+      ],
+      "linked": [
+        {
+          "id": "zb_ambush",
+          "chance": 0
+        }
+      ]
+    },
+
+    {
+      "comments": "【往日不再】执行剧情",
+      "id": "spawn_zbnobody_use",
+      "label": "颤抖的双手",
+      "startdescription": "吸气，吐气……管那该死的东西是什么。我只需要冷静，然后默念“我能做到。”",
+      "description": "终于，我止住了发抖的手指。我知道我该做什么。",
+      "actionId": "zb_use",
+      "requirements": {},
+      "effects": {
+        "zb_attack_plan": 1,
+        "zb_escape_plan": 1
+      },
+      "warmup": 20,
+      "craftable": false
+    },
+
+    {
+      "comments": "袭击事件，这是一个0级的丧尸袭击。actionid暂时也挂在“执行”行动下（之后可改），requirements里面是条件",
+      "id": "zb_ambush",
+      "actionId": "zb_use",
+      "label": "【预留】袭击",
+      "startdescription": "袭击事件尚未实装。",
+      "description": "袭击事件尚未实装。",
+      "requirements": {},
+      "effects": {},
+      "warmup": 0,
+      "craftable": false
+    },
+    {
+      "comments": "【往日不再】执行鲁莽的进攻计划",
+      "id": "execute_attack_plan",
+      "actionId": "zb_use",
+      "label": "屈从于一时的鲁莽",
+      "startdescription": "我曾经参加过业余格斗训练，对付一个受重伤的疯子谅必绰绰有余。",
+      "warmup": 30,
+      "craftable": true,
+      "description": "对方的进攻完全没有策略可言，在我的攻势下，对方频频摔倒，但无论怎么做，那具残缺的躯体依旧能够爬起来，试图啃咬我的身体。\n恐惧占据了上风，我逃走了，一直逃到一处足以隐蔽自身的地方，我暂时安全了。",
+      "requirements": {
+        "zb_attack_plan": 1
+      },
+      "effects": {
+        "zb_attack_plan": -1,
+        "zb_skillpower2": 1,
+        "zb_skillstamina1": 1,
+        "zb_temporary": 1
+      },
+      "slots":[
+        {
+          "id": "discard_escape_plan",
+          "label": "放弃计划",
+          "required": {
+            "zb_escape_plan": 1
+          },
+          "greedy": true,
+          "consumes": true
+        }
+      ],
+      "alt": [
+        {
+          "id": "spawn_zbnobody_dream",
+          "chance": 100,
+          "additional": true
+        }
+      ]
+    },
+    {
+      "comments": "【往日不再】执行慌乱的逃跑计划",
+      "id": "execute_escape_plan",
+      "actionId": "zb_use",
+      "label": "听从于本能的恐惧",
+      "startdescription": "我曾经有夜跑的习惯，甩掉一个受重伤的疯子谅必绰绰有余。",
+      "warmup": 30,
+      "craftable": true,
+      "description": "恐惧并没有让我的双腿发软，反而让我的大脑更加清晰。\n喑哑的嘶吼在脑后越来越轻，我逃走了，一直逃到一处足以隐蔽自身的地方，我暂时安全了。",
+      "requirements": {
+        "zb_escape_plan": 1
+      },
+      "effects": {
+        "zb_escape_plan": -1,
+        "zb_skillpower1": 1,
+        "zb_skillstamina2": 1,
+        "zb_temporary": 1
+      },
+      "slots":[
+        {
+          "id": "discard_attack_plan",
+          "label": "放弃计划",
+          "required": {
+            "zb_attack_plan": 1
+          },
+          "greedy": true,
+          "consumes": true
+        }
+      ],
+      "alt": [
+        {
+          "id": "spawn_zbnobody_dream",
+          "chance": 100,
+          "additional": true
+        }
+      ]
+    },
+    {
+      "comments": "【往日不再】入梦剧情",
+      "id": "spawn_zbnobody_dream",
+      "actionId": "zb_dream",
+      "label": "短暂的安宁",
+      "startdescription": "我简要地包扎了头部的伤口，蜷缩在庇护所角落，沉沉的睡去。",
+      "description": "我睡得并不好，白天抛诸脑后的回忆，在睡梦中追上了我，我在惊恐中醒来。",
+      "warmup": 30,
+      "craftable": false,
+      "requirements": {},
+      "effects": {
+        "zb_skillmedicine1": 1,
+        "zb_sickmemory": 1
+      },
+      "alt": [
+        {
+          "id": "spawn_zbnobody_seek",
+          "chance": 100,
+          "additional": true
+        },
+        {
+          "id": "spawn_zbnobody_talk",
+          "chance": 100,
+          "additional": true
+        }
+      ]
+    },
+    {
+      "comments": "【往日不再】搜寻剧情",
+      "id": "spawn_zbnobody_seek",
+      "actionId": "zb_seek",
+      "label": "仔细的搜寻",
+      "startdescription": "我的容身之所并不大，但也许还有些许能用的东西尚未被我发现……",
+      "description": "我找到了能用的东西。",
+      "warmup": 15,
+      "craftable": false,
+      "requirements": {},
+      "effects": {
+        "zb_food": 3,
+        "zb_rag": 1,
+        "zb_map": 1
+      }
+    },
+    {
+      "comments": "【往日不再】交流剧情",
+      "id": "spawn_zbnobody_talk",
+      "actionId": "zb_talk",
+      "label": "末世的思辨",
+      "startdescription": "收音机中只能传来无意义的噪音，外面的人都疯了，见人就咬，世界不再存在秩序。",
+      "description": "或许神志清醒的人比他们更可怕，谁知道呢？我渴望和幸存者说话。",
+      "warmup": 30,
+      "craftable": false,
+      "requirements": {},
+      "effects": {
+        "zb_skillperception1": 1,
+        "zb_skillintelligence1": 1,
+        "zb_skillmechanics1": 1
+      }
+    }
+  ]
+}

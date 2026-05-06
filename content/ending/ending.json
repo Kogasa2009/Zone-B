@@ -1,0 +1,40 @@
+{
+    "endings":[
+        {
+            "comments": "因为5张衰竭导致的死亡结局",
+            "id": "zb_deathasStrangler",
+            "label": "《扼杀生命的死神》",
+            "description": "我那衰竭的心脏无法再驱动我的身躯，我的旅程到此为止。\n[我使身体积累了5份衰竭。我本应保证有充足的物资；我本可悉心包扎创口；我本可在梦中休息使自己从虚弱恢复]",
+            "image": "zb_deathasStrangler",
+            "flavour": "Melancholy",
+            "anim": "DramaticLightEvil"
+        },
+        {
+            "comments": "因为5张挫败导致的精神错乱结局",
+            "id": "zb_HeadVI",
+            "label": "《Head VI》",
+            "description": "我再也不想躲在阴暗的庇护所，我再也不想蹑手蹑脚的行动，我再也不想压低声音说话，我再也不想……\n[我使阴郁积累了5份挫败。]",
+            "image": "zb_HeadVI",
+            "flavour": "Melancholy",
+            "anim": "DramaticLightEvil"
+        },
+        {
+            "comments": "感染为丧尸的结局",
+            "id": "zb_zombie",
+            "label": "《死神的胜利》",
+            "description": "我躺在庇护所最隐秘的房间，意识消散在滚烫之中。待我再次醒来时，我将成为它们的一员。\n[我被感染者咬伤]",
+            "image": "zb_zombie",
+            "flavour": "Melancholy",
+            "anim": "DramaticLightEvil"
+        },
+        {
+            "comments": "隐居田园结局",
+            "id": "zb_hermit",
+            "label": "《Landscape with Fisherman》",
+            "description": "我拥有纯净的水源，自给自足的食物来源，以及足够安全的“堡垒”。我能在这里安度余生，远离那群复生的亡者。然后有一天，我将死去。\n[也算是一种小胜结局吧。]",
+            "image": "zb_hermit",
+            "flavour": "Melancholy",
+            "anim": "DramaticLightCool"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "elements": [
+        {
+            "comments": "庇护所性相：坚固",
+            "id": "zb_strong",
+            "label": "坚固",
+            "description": "抵御外敌程度的能力。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_strong",
+            "noartneeded": false
+        },
+        {
+            "comments": "庇护所性相：隐蔽",
+            "id": "zb_secret",
+            "label": "隐蔽",
+            "description": "掩人耳目程度的能力。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_secret",
+            "noartneeded": false
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "elements":[
+        {
+            "comments": "书籍可以放入研究，阅读书籍可以提升自己的技能，或是获取新的配方",
+            "id": "zb_book",
+            "label": "书籍",
+            "description": "人类文明存在过的证明。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_book",
+            "noartneeded": false
+        },
+        {
+            "comments": "资料用于放入研究，反复查阅资料获取详尽信息",
+            "id": "zb_data",
+            "label": "资料",
+            "description": "值得反复研究的精炼数据。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_data",
+            "noartneeded": false
+        }
+    ]
+}

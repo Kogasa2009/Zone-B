@@ -1,0 +1,27 @@
+{
+	"elements": [
+		{
+			"comments": "【核心出装】",
+			"id": "zb_food",
+			"label": "醋鱼罐头",
+			"description": "H市名菜的工业化版本，美味到在末世都无人问津。\n足够维持我一段时间的生存。",
+			"icon": "zb_food",
+			"slots": [],
+			"aspects": {
+				"zb_cost": 1
+			}
+		},
+        {
+			"comments": "最低级的医疗物资，消耗60s包扎伤口。不确保伤口恶化，但好在随处可见。",
+			"id": "zb_rag",
+			"label": "碎布条",
+			"description": "一些被撕成条状的布。",
+			"icon": "zb_rag",
+			"slots": [],
+			"aspects": {
+				"zb_medicine": 1,
+                "zb_cost": 1
+			}
+		}
+	]
+}

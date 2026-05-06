@@ -1,0 +1,112 @@
+{
+    "elements": [
+        {
+            "comments": "回忆可以放入研究、入梦，当理性的剖析无法更进一步探索时，需要在梦境中寻得继续前进的路径",
+            "id": "zb_memory",
+            "label": "回忆",
+            "description": "向内探索的凭证。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_memory",
+            "noartneeded": false
+        },
+
+
+        {
+            "comments": "配方放入执行后，会出现若干卡槽用于放入原料，读条结束后制作完成",
+            "id": "zb_blueprint",
+            "label": "配方",
+            "description": "详尽的制作笔记。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_blueprint",
+            "noartneeded": false
+        },
+        {
+            "comments": "欲望是你在游戏的终极目标，完成后可以通向结局",
+            "id": "zb_desire",
+            "label": "欲望",
+            "description": "梦想，贪念，或是终极目标。我将为此付出一切。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_desire",
+            "noartneeded": false
+        },
+        {
+            "comments": "计划可以被执行，执行结果如何取决于执行时属性的分配",
+            "id": "zb_plan",
+            "label": "计划",
+            "description": "我只有一条命。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_plan",
+            "noartneeded": false
+        },
+        {
+            "comments": "万纸牌见光以后只能存在60s，使用时放入执行，支付等量属性即可。",
+            "id": "zb_wtg",
+            "label": "万纸牌",
+            "description": "骸之堡推出的集换式卡牌游戏，很快就会被平衡委员会禁掉。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_wtg",
+            "noartneeded": false
+        },
+        {
+            "comments": "地牌是特殊的万纸牌，放入使用后可以产出对应属性的2级影响，横置后需要240s才能重置",
+            "id": "zb_landcard",
+            "label": "基本地",
+            "description": "万纸牌中法术力的源泉，这是一张基本地。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_landcard",
+            "noartneeded": false
+        },
+
+
+        {
+            "comments": "健康欠佳可以入梦痊愈，也可以用医疗物品治疗",
+            "id": "zb_illheart",
+            "label": "健康欠佳",
+            "description": "想要恢复健康，我需要休息和对应的医疗物品。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_illheart",
+            "noartneeded": false
+        },
+        
+        
+        {
+            "comments": "地点可以进行探索，并获取战利品。",
+            "id": "zb_location",
+            "label": "地点",
+            "description": "有搜寻价值的地点，但愿我能不虚此行。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_location",
+            "noartneeded": false
+        },
+        {
+            "comments": "探索地区可以获得有搜寻价值的地点。",
+            "id": "zb_area",
+            "label": "地区",
+            "description": "相当大的区域，盲目的搜寻相当危险。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_area",
+            "noartneeded": false
+        },
+        
+
+        {
+            "comments": "幸存者，分为：中立幸存者、敌对幸存者、结盟幸存者",
+            "id": "zb_survivor",
+            "label": "幸存者",
+            "description": "暂时未转变成丧尸的人类，不知是敌是友。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_survivor",
+            "noartneeded": false
+        }
+    ]
+}

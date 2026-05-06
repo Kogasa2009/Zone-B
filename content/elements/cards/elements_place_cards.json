@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"comments": "玩家开局找到的临时庇护所。",
+			"id": "zb_temporary",
+			"label": "临时庇护所",
+			"description": "那些嗜血的活尸无法发现这里，我暂时安全了。",
+			"icon": "zb_temporary",
+			"slots": [],
+			"aspects": {
+				"zb_secret": 2,
+				"zb_strong": 2
+			}
+		}
+	]
+}

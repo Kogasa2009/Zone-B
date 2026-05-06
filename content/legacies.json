@@ -1,0 +1,23 @@
+{
+	"legacies": [
+		{
+			"id": "zb_nobody",
+			"label": "往日不再",
+			"image": "Nobody",
+			"startingVerbId": "zb_research",
+			"description": "我的身上并无可圈可点之处，但一句‘我还活着’，便足以证明一切。",
+			"startdescription": "从地上爬起来，后脑隐隐作痛，我的记忆停留在昏迷的前一刻。尖叫、恐慌、血液……到底发生了什么？",
+			"statusbarelements": [
+				"health",
+				"reason",
+				"passion",
+				"funds"
+			],
+			"effects": {
+				"zb_blurmemory": 1
+			},
+			"newstart": true,
+			"availableWithoutEndingMatch": true
+		}
+	]
+}

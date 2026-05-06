@@ -1,0 +1,98 @@
+{
+    "verbs": [
+        {
+            "id": "zb_research",
+            "label": "研究",
+            "description": "每掌握一条信息，便多一丝存活的可能",
+            "icon": "zb_research",
+            "atStart": false,
+            "slot": {
+                "id": "research_slot",
+                "label": "研究",
+                "description": "溯果逐因，追根求底。",
+                "required": {
+                    "zb_book": 1,
+                    "zb_memory": 1,
+                    "zb_data": 1
+                },
+                "greedy": false,
+                "consumes": false
+            }
+        },
+        {
+            "id": "zb_use",
+            "label": "执行",
+            "description": "攻击敌人，制作物品，实现计划等",
+            "icon": "zb_use",
+            "atStart": false,
+            "slot": {
+                "id": "use_slot",
+                "label": "使用",
+                "description": "生存就是要利用能够利用的一切。",
+                "required": {
+                    "zb_weapon": 1,
+                    "zb_blueprint": 1,
+                    "zb_desire": 1,
+                    "zb_plan": 1,
+                    "zb_wtg": 1,
+                    "zb_landcard": 1
+                },
+                "greedy": false,
+                "consumes": false
+            }
+        },
+        {
+            "id": "zb_dream",
+            "label": "入梦",
+            "description": "休息，促进愈合，或是探索我的内心",
+            "icon": "zb_dream",
+            "atStart": false,
+            "slot": {
+                "id": "dream_slot",
+                "label": "入梦",
+                "description": "或做梦的方向，或待解的烦忧。",
+                "required": {
+                    "zb_memory": 3,
+                    "zb_illheart": 1
+                },
+                "greedy": false,
+                "consumes": false
+            }
+        },
+        {
+            "id": "zb_seek",
+            "label": "搜寻",
+            "description": "为了避免物资告罄，我不得不铤而走险。",
+            "icon": "zb_seek",
+            "atStart": false,
+            "slot": {
+                "id": "seek_slot",
+                "label": "搜寻",
+                "description": "探索危机四伏的城市，搜集物资。",
+                "required": {
+                    "zb_location": 1,
+                    "zb_area": 1
+                },
+                "greedy": false,
+                "consumes": false
+            }
+        },
+        {
+            "id": "zb_talk",
+            "label": "交流",
+            "description": "那些蹒跚的亡者没有交流的价值，我需要一个有价值的交流对象。",
+            "icon": "zb_talk",
+            "atStart": false,
+            "slot": {
+                "id": "talk_slot",
+                "label": "交流",
+                "description": "",
+                "required": {
+                    "zb_survivor": 1
+                },
+                "greedy": false,
+                "consumes": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "elements": [
+        {
+            "comments": "武器放入执行后，再放入攻击目标，就可以主动发起进攻",
+            "id": "zb_weapon",
+            "label": "武器",
+            "description": "用于狩猎，用于威慑，用于征服。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_weapon",
+            "noartneeded": false
+        },
+        {
+            "comments": "物资和幸存者交易可以换多少罐头",
+            "id": "zb_worth",
+            "label": "价值",
+            "description": "如果拿它和幸存者交易，能换多少罐头？",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_worth",
+            "noartneeded": false
+        },
+        {
+            "comments": "消耗品使用后会消失",
+            "id": "zb_cost",
+            "label": "消耗品",
+            "description": "物资、燃料、药膏以及耐心：全都随时间耗减。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_cost",
+            "noartneeded": false
+        },
+        {
+            "comments": "工具可以协助玩家",
+            "id": "zb_tool",
+            "label": "工具",
+            "description": "让你应付仅凭双手不能解决的情况。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_tool",
+            "noartneeded": false
+        },
+        {
+            "comments": "俗世的工具有耐久",
+            "id": "zb_endure",
+            "label": "耐久",
+            "description": "耐久度见底的物品也就确实没有了价值。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_endure",
+            "noartneeded": false
+        }
+    ]
+}

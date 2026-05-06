@@ -1,0 +1,17 @@
+{
+    "elements":[
+        {
+            "comments": "测试道具，放入研究后可以给出一个地区。",
+			"id": "zb_map",
+			"label": "本市地图",
+			"description": "详尽的地图，花上一些时间就能找到值得搜刮的地点。",
+			"icon": "zb_map",
+			"slots": [],
+			"aspects": {
+				"zb_tool": 1,
+                "zb_data": 1,
+                "zb_worth": 5
+			}
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "elements":[
+        {
+			"comments": "【往日不再】1级记忆，开局拥有",
+			"id": "zb_blurmemory",
+			"label": "一段模糊的记忆",
+			"description": "我在失去意识前肯定重重的挨了一下，好像还被踩了几脚……",
+			"icon": "zb_blurmemory",
+			"slots": [],
+			"aspects": {
+				"zb_memory": 1
+			}
+		},
+		{
+			"comments": "【往日不再】2级记忆",
+			"id": "zb_sickmemory",
+			"label": "令人作呕的记忆",
+			"description": "哭嚎，残肢，血液，牙齿，唾液……\n活死人。",
+			"icon": "zb_sickmemory",
+			"slots": [],
+			"aspects": {
+				"zb_memory": 2
+			}
+		},
+		{
+			"comments": "【往日不再】我曾经参加过业余格斗训练，制伏一个受重伤的疯子应该绰绰有余。",
+			"id": "zb_attack_plan",
+			"label": "鲁莽的进攻计划",
+			"description": "对方不过是个重伤的疯子，也许我应当鲁莽行事。",
+			"icon": "zb_attack_plan",
+			"slots": [],
+			"aspects": {
+				"zb_plan": 1
+			}
+		},
+		{
+			"comments":"【往日不再】我曾经有夜跑的习惯，甩掉一个受重伤的疯子应该绰绰有余。",
+			"id": "zb_escape_plan",
+			"label": "慌乱的逃跑计划",
+			"description": "我看见了无法用常理解释的局面，也许我应当听从恐惧。",
+			"icon": "zb_escape_plan",
+			"slots": [],
+			"aspects": {
+				"zb_plan": 1
+			}
+		}
+    ]
+}
