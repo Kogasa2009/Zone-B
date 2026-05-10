@@ -1,0 +1,25 @@
+{
+    "elements":[
+        {
+            "comments": "【附近的街区】烂尾楼，图片未完工，阻碍性相未完工，配方未完工",
+            "id": "zb_unfinishBuilding",
+            "label": "烂尾楼",
+            "description": "在开发商陷入债务纠纷以后，这里废弃了整整一年。空洞的建筑楼矗立在街区的西部，早已空无一人，也许可以作为不错的藏身之处。",
+            "icon": "zb_unfinishBuilding",
+            "aspects": {
+                "zb_location": 1
+            },
+            "unique": true
+        },
+        {
+            "comments": "【附近的街区】狼藉的便利店，图片未完工，阻碍性相未完工，配方未完工",
+            "id": "zb_ruinstore",
+            "label": "狼藉的便利店",
+            "description": "街边随处可见的便利店，幸存者已然把这里翻过一个遍，不过某处也许有些物资尚存。",
+            "icon": "zb_ruinstore",
+            "aspects": {
+                "zb_location": 1
+            }
+        }
+    ]
+}

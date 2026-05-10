@@ -8,8 +8,7 @@
 			"icon": "zb_temporary",
 			"slots": [],
 			"aspects": {
-				"zb_secret": 2,
-				"zb_strong": 2
+				"zb_secret": 2
 			}
 		}
 	]

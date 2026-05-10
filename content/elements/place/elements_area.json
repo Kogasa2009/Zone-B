@@ -1,0 +1,26 @@
+{
+    "elements":[
+        {
+            "comments": "【地区】广茵大厦，图片未完工，配方未完工",
+            "id": "zb_hadbroBuilding",
+            "label": "广茵大厦",
+            "description": "骇之宝位于H市的分部。前些年旗下产品质量下跌，收入下降，大厦的许多楼层都出租给其他公司了。",
+            "icon": "zb_hadbroBuilding",
+            "aspects": {
+                "zb_area": 1
+            },
+            "unique": true
+        },
+        {
+            "comments": "【地区】附近的街区，图片未完工，配方未完工",
+            "id": "zb_blocks",
+            "label": "附近的街区",
+            "description": "这附近没什么有价值的大地点，我得到街边碰碰运气。",
+            "icon": "zb_blocks",
+            "aspects": {
+                "zb_area": 1
+            },
+            "unique": true
+        }
+    ]
+}
