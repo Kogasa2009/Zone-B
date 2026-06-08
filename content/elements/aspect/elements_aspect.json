@@ -75,17 +75,6 @@
             "noartneeded": false
         },
         
-        
-        {
-            "comments": "地点可以进行探索，并获取战利品。",
-            "id": "zb_location",
-            "label": "地点",
-            "description": "有搜寻价值的地点，但愿我能不虚此行。",
-            "isAspect": true,
-            "isHidden": false,
-            "icon": "zb_location",
-            "noartneeded": false
-        },
         {
             "comments": "探索地区可以获得有搜寻价值的地点。",
             "id": "zb_area",
@@ -96,6 +85,27 @@
             "icon": "zb_area",
             "noartneeded": false
         },
+        {
+            "comments": "地点可以前往",
+            "id": "zb_location",
+            "label": "地点",
+            "description": "一切事物皆有其所在之处，如此物位于此处。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_location",
+            "noartneeded": false
+        },
+        {
+            "comments": "具有物资的地点，具有搜寻价值",
+            "id": "zb_vault",
+            "label": "资源点",
+            "description": "有搜寻价值的地点，但愿我能不虚此行。",
+            "isAspect": true,
+            "isHidden": false,
+            "icon": "zb_vault",
+            "noartneeded": false
+        },
+
         
 
         {

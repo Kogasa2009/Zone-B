@@ -7,7 +7,8 @@
             "description": "在开发商陷入债务纠纷以后，这里废弃了整整一年。空洞的建筑楼矗立在街区的西部，早已空无一人，也许可以作为不错的藏身之处。",
             "icon": "zb_unfinishBuilding",
             "aspects": {
-                "zb_location": 1
+                "zb_location": 1,
+                "zb_vault": 1
             },
             "unique": true
         },
@@ -18,7 +19,8 @@
             "description": "街边随处可见的便利店，幸存者已然把这里翻过一个遍，不过某处也许有些物资尚存。",
             "icon": "zb_ruinstore",
             "aspects": {
-                "zb_location": 1
+                "zb_location": 1,
+                "zb_vault": 1
             }
         }
     ]
